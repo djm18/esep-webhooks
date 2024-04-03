@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DJ Meyer\\Documents\\GitHub\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj": {}
+    "C:\\Users\\DJ Meyer\\Documents\\GitHub\\esep-webhooks\\esepwebhook\\src\\esepwebhook\\EsepWebhook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DJ Meyer\\Documents\\GitHub\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj": {
+    "C:\\Users\\DJ Meyer\\Documents\\GitHub\\esep-webhooks\\esepwebhook\\src\\esepwebhook\\EsepWebhook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DJ Meyer\\Documents\\GitHub\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
+        "projectUniqueName": "C:\\Users\\DJ Meyer\\Documents\\GitHub\\esep-webhooks\\esepwebhook\\src\\esepwebhook\\EsepWebhook.csproj",
         "projectName": "EsepWebhook",
-        "projectPath": "C:\\Users\\DJ Meyer\\Documents\\GitHub\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
+        "projectPath": "C:\\Users\\DJ Meyer\\Documents\\GitHub\\esep-webhooks\\esepwebhook\\src\\esepwebhook\\EsepWebhook.csproj",
         "packagesPath": "C:\\Users\\DJ Meyer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DJ Meyer\\Documents\\GitHub\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\obj\\",
+        "outputPath": "C:\\Users\\DJ Meyer\\Documents\\GitHub\\esep-webhooks\\esepwebhook\\src\\esepwebhook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DJ Meyer\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -69,7 +69,15 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[8.0.3, 8.0.3]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[8.0.3, 8.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
               "version": "[8.0.3, 8.0.3]"
             }
           ],
@@ -79,6 +87,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
